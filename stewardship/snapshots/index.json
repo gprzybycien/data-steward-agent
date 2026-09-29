@@ -13,6 +13,13 @@
       "recorded_at": "2026-09-29T10:51:12.162590+00:00",
       "run_completed_at": "2026-09-29T10:44:36Z",
       "snapshot_id": "snapshot-2026-09-29-10-44-36"
+    },
+    {
+      "asset_count": 5,
+      "mdi_run_id": "01a0ecc4-3417-77a9-ae51-4c1f4d23e7b0",
+      "recorded_at": "2026-09-29T13:09:18.046234+00:00",
+      "run_completed_at": "2026-09-29T10:44:36Z",
+      "snapshot_id": "snapshot-2026-09-29-10-44-36-new"
     }
   ]
 }
