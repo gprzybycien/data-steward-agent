@@ -1,0 +1,104 @@
+schema_version: '1'
+artifact_type: mde_plan_draft
+epistemic_type: GENERATED_PROPOSAL
+plan_id: mde-plan-20260929T202223Z-4d3ef92c0d11
+project_id: 02daf9b4-791f-4653-b9ce-6e6c6fe6bb0d
+recorded_at: '2026-09-29T20:22:23.777885+00:00'
+evidence:
+  epistemic_type: VERIFIED_FACT
+  retrieved_at: null
+  note: Inventory evidence was read by the agent before this draft was generated.
+approval:
+  status: AWAITING_HUMAN
+  required: true
+  recorded: false
+plan:
+  assignments:
+  - asset_id: 01a0e735-a2c3-77fd-baec-8ca6ce347149
+    asset_name: booking_conversion
+    assignment_basis: POLICY_OVERRIDE
+    human_confirmation_required: true
+    reasons:
+    - Conversion KPI source
+    - Revenue-bearing publication candidate
+    score: 70
+    tier: TIER_1
+  - asset_id: 01a0e735-a47f-7629-a717-22d7694e0215
+    asset_name: campaign
+    assignment_basis: DETERMINISTIC_SCORE
+    human_confirmation_required: true
+    reasons:
+    - No elevated risk or value signals supplied
+    score: 0
+    tier: TIER_3
+  - asset_id: 01a0e735-96f4-7741-b85c-68e973c41f0e
+    asset_name: campaign_daily_performance
+    assignment_basis: DETERMINISTIC_SCORE
+    human_confirmation_required: true
+    reasons:
+    - No elevated risk or value signals supplied
+    score: 0
+    tier: TIER_3
+  - asset_id: 01a0e735-a543-7565-944a-429837c1fe6f
+    asset_name: customer_consent
+    assignment_basis: DETERMINISTIC_SCORE
+    human_confirmation_required: true
+    reasons:
+    - No elevated risk or value signals supplied
+    score: 0
+    tier: TIER_3
+  - asset_id: 01a0e735-a297-70d4-b801-de6d66f5ed22
+    asset_name: digital_event
+    assignment_basis: DETERMINISTIC_SCORE
+    human_confirmation_required: true
+    reasons:
+    - No elevated risk or value signals supplied
+    score: 0
+    tier: TIER_3
+  excluded_assets: []
+  mde_scopes:
+  - assets:
+    - asset_id: 01a0e735-a2c3-77fd-baec-8ca6ce347149
+      asset_name: booking_conversion
+    human_approval_required: true
+    mde_name: MDE-PM-TIER1-CRITICAL
+    objectives:
+    - profile_data
+    - expand_metadata
+    - assign_terms_and_classifications
+    - set_relationships
+    - identify_quality_checks
+    - run_quality_checks
+    - assess_quality_with_sla
+    rerun_scope: new_modified_failed
+    sampling: full_or_governed_sample
+    tier: TIER_1
+  - assets:
+    - asset_id: 01a0e735-a47f-7629-a717-22d7694e0215
+      asset_name: campaign
+    - asset_id: 01a0e735-96f4-7741-b85c-68e973c41f0e
+      asset_name: campaign_daily_performance
+    - asset_id: 01a0e735-a543-7565-944a-429837c1fe6f
+      asset_name: customer_consent
+    - asset_id: 01a0e735-a297-70d4-b801-de6d66f5ed22
+      asset_name: digital_event
+    human_approval_required: true
+    mde_name: MDE-PM-TIER3-LIGHT
+    objectives:
+    - profile_data
+    - assign_terms_and_classifications
+    rerun_scope: new_modified_failed
+    sampling: minimal_sample
+    tier: TIER_3
+  mutations_performed: false
+  plan_status: AWAITING_HUMAN
+  policy_id: performance-marketing-v1
+  policy_version: '1.0'
+  project_id: 02daf9b4-791f-4653-b9ce-6e6c6fe6bb0d
+  requires_human_approval: true
+  unresolved_parent_assets: []
+  validation:
+    duplicate_assignments: []
+    errors: []
+    one_mde_per_asset: true
+    valid: true
