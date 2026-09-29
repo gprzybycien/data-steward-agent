@@ -1,0 +1,8 @@
+schema_version: '1'
+artifact_type: mde_plan_approval_annotation
+plan_id: mde-plan-20260929T204609Z-db8bd24a943f
+project_id: 02daf9b4-791f-4653-b9ce-6e6c6fe6bb0d
+approval_user_id: grzegorz.przybycien1@ibm.com
+approved_at: '2026-09-29T20:47:12.575644+00:00'
+epistemic_type: HUMAN_DECISION
+decision: APPROVED
