@@ -1,0 +1,40 @@
+{
+  "asset_count": 5,
+  "assets": [
+    {
+      "asset_id": "01a0e735-96f4-7741-b85c-68e973c41f0e",
+      "asset_name": "campaign_daily_performance",
+      "schema_fingerprint": "16ba7b8abf631e4480a7947bad1782baa4a296e231320a14d9989e1f0d925f09",
+      "stable_identity": "asset:01a0e735-96f4-7741-b85c-68e973c41f0e"
+    },
+    {
+      "asset_id": "01a0e735-a297-70d4-b801-de6d66f5ed22",
+      "asset_name": "digital_event",
+      "schema_fingerprint": "ebc04dffc7e8e1dcf2302db00577e731986c452602eef0634d305a2e9e29c96f",
+      "stable_identity": "asset:01a0e735-a297-70d4-b801-de6d66f5ed22"
+    },
+    {
+      "asset_id": "01a0e735-a2c3-77fd-baec-8ca6ce347149",
+      "asset_name": "booking_conversion",
+      "schema_fingerprint": "17da5787b48e0ae91ba7ccdeb70cf03405f885f98ee6fee1cd357ebbe3b37504",
+      "stable_identity": "asset:01a0e735-a2c3-77fd-baec-8ca6ce347149"
+    },
+    {
+      "asset_id": "01a0e735-a47f-7629-a717-22d7694e0215",
+      "asset_name": "campaign",
+      "schema_fingerprint": "a4b8ee1333cfae15c03c985238e265e32c9e8524f5120b937821a77eaf1882c7",
+      "stable_identity": "asset:01a0e735-a47f-7629-a717-22d7694e0215"
+    },
+    {
+      "asset_id": "01a0e735-a543-7565-944a-429837c1fe6f",
+      "asset_name": "customer_consent",
+      "schema_fingerprint": "7e7f9cebc33e697c48a5ee0f1c380f7bd0967d4a3721dfbecd12ee7d1fc86d54",
+      "stable_identity": "asset:01a0e735-a543-7565-944a-429837c1fe6f"
+    }
+  ],
+  "mdi_run_id": "01a0ecc4-3417-77a9-ae51-4c1f4d23e7b0",
+  "project_id": "02daf9b4-791f-4653-b9ce-6e6c6fe6bb0d",
+  "recorded_at": "2026-09-29T10:51:12.162590+00:00",
+  "run_completed_at": "2026-09-29T10:44:36Z",
+  "snapshot_id": "snapshot-2026-09-29-10-44-36"
+}
