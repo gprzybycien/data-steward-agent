@@ -2,10 +2,17 @@
   "plans": [
     {
       "approval": {
-        "annotations": [],
-        "status": "NOT_APPROVED"
+        "annotations": [
+          {
+            "approval_user_id": "grzegorz.przybycien1@ibm.com",
+            "approved_at": "2026-09-29T20:47:12.575644+00:00",
+            "repository_file": "stewardship/mde-plans/annotations/mde-plan-20260929T204609Z-db8bd24a943f/approval-b9b3e9039ef9.yaml",
+            "repository_url": "https://github.com/gprzybycien/data-steward-agent/blob/main/stewardship/mde-plans/annotations/mde-plan-20260929T204609Z-db8bd24a943f/approval-b9b3e9039ef9.yaml"
+          }
+        ],
+        "status": "APPROVED"
       },
-      "lifecycle_status": "DRAFT",
+      "lifecycle_status": "APPROVED",
       "plan_id": "mde-plan-20260929T204609Z-db8bd24a943f",
       "plan_status": "AWAITING_HUMAN",
       "project_id": "02daf9b4-791f-4653-b9ce-6e6c6fe6bb0d",
