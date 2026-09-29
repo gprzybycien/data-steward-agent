@@ -1,0 +1,18 @@
+{
+  "plans": [
+    {
+      "approval": {
+        "annotations": [],
+        "status": "NOT_APPROVED"
+      },
+      "lifecycle_status": "DRAFT",
+      "plan_id": "mde-plan-20260929T204609Z-db8bd24a943f",
+      "plan_status": "AWAITING_HUMAN",
+      "project_id": "02daf9b4-791f-4653-b9ce-6e6c6fe6bb0d",
+      "recorded_at": "2026-09-29T20:46:09.786823+00:00",
+      "repository_file": "stewardship/mde-plans/mde-plan-20260929T204609Z-db8bd24a943f.yaml",
+      "repository_url": "https://github.com/gprzybycien/data-steward-agent/blob/main/stewardship/mde-plans/mde-plan-20260929T204609Z-db8bd24a943f.yaml"
+    }
+  ],
+  "schema_version": "1"
+}
