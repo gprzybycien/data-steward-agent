@@ -1,0 +1,11 @@
+{
+  "snapshots": [
+    {
+      "asset_count": 5,
+      "mdi_run_id": "01a0ea76-690f-70db-b096-111f060c6e32",
+      "recorded_at": "2026-09-29T09:03:40.180222+00:00",
+      "run_completed_at": "2026-09-29T00:00:23Z",
+      "snapshot_id": "baseline-2026-09-29"
+    }
+  ]
+}
